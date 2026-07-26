@@ -8,7 +8,7 @@ then
 	echo "	     ----------  YOU FAILED TO ESCAPE!  ----------"
 	echo
 	echo
-	./bin/menu.sh
+	./bin/dmok-turn.sh
 else
 	echo "	       ----------  ESCAPE SUCCEEDED!  ----------"
 	echo
