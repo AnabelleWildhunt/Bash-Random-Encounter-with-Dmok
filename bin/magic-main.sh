@@ -19,7 +19,7 @@ echo "#############"
 read choice
 
 case $choice in
-	FB) echo;;
+	FB) ./bin/fireball.sh;;
 	H) echo;;
 	S) echo;;
 	C) echo;;
