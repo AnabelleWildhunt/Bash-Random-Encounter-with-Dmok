@@ -24,6 +24,6 @@ case $choice in
 	S) echo;;
 	C) echo;;
 	SH) echo;;
-	D) echo;;
+	D) ./bin/death-spell.sh;;
 	B) ./bin/menu.sh
 esac
