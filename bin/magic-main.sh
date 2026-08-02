@@ -20,7 +20,7 @@ read choice
 
 case $choice in
 	FB) ./bin/fireball.sh;;
-	H) echo;;
+	H) ./bin/heal-spell.sh;;
 	S) echo;;
 	C) echo;;
 	SH) echo;;
