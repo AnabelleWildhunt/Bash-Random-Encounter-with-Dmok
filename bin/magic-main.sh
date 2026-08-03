@@ -22,7 +22,7 @@ case $choice in
 	FB) ./bin/fireball.sh;;
 	H) ./bin/heal-spell.sh;;
 	S) echo;;
-	C) echo;;
+	C) ./bin/charm-spell.sh;;
 	SH) echo;;
 	D) ./bin/death-spell.sh;;
 	B) ./bin/menu.sh
