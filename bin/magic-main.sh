@@ -21,7 +21,7 @@ read choice
 case $choice in
 	FB) ./bin/fireball.sh;;
 	H) ./bin/heal-spell.sh;;
-	S) echo;;
+	S) ./bin/swiftness-spell.sh;;
 	C) ./bin/charm-spell.sh;;
 	SH) echo;;
 	D) ./bin/death-spell.sh;;
