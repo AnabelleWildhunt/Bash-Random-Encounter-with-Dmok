@@ -23,7 +23,7 @@ case $choice in
 	H) ./bin/heal-spell.sh;;
 	S) ./bin/swiftness-spell.sh;;
 	C) ./bin/charm-spell.sh;;
-	SH) echo;;
+	SH) ./bin/shield-spell.sh;;
 	D) ./bin/death-spell.sh;;
 	B) ./bin/menu.sh
 esac
