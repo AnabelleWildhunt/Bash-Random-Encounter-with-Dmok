@@ -48,10 +48,10 @@ sed -i "s/$HP/$HP_C/" ./bin/plr-hp
 # Reduction of defense stance
 if [[ $DEF_STAT == 1 && $DEF2_STAT == 1 ]]
 then
-	sed -i "s/$DEF2_STAT/$NULL/" ./bin/plr-def
+	sed -i "3 s/$DEF2_STAT/$NULL/" ./bin/plr-def
 elif [[ $DEF_STAT == 1 && $DEF2_STAT == 0 ]]
 then
-	sed -i "s/$DEF_STAT/$NULL/" ./bin/plr-def
+	sed -i "4 s/$DEF_STAT/$NULL/" ./bin/plr-def
 fi
 
 

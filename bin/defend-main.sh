@@ -7,6 +7,6 @@ DEF2_STAT=$(tail -2 ./bin/plr-def | head -1)
 DEF="1"
 
 # Giving the defense stance value to both defense markers (for 1st and 2nd turn of defense)
-sed -i "s/$DEF_STAT/$DEF/" ./bin/plr-def
-sed -i "s/$DEF_STAT/$DEF/" ./bin/plr-def
+sed -i "4 s/$DEF_STAT/$DEF/" ./bin/plr-def
+sed -i "3 s/$DEF2_STAT/$DEF/" ./bin/plr-def
 ./bin/dmok-turn.sh
