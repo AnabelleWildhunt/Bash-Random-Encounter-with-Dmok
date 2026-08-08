@@ -30,6 +30,8 @@ then
 else
 	echo
 	echo "           ----------  ...BUT NOTHING HAPPENED...  ----------"
+	echo
+	echo
 	./bin/dmok-turn.sh
 fi
 
